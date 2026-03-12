@@ -6,34 +6,33 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Full-Stack Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Building modern web applications using React, Node.js, Express, and MySQL with scalable architecture and RESTful APIs.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "React Frontend Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Creating responsive and interactive user interfaces using React, modern JavaScript, and component-based architecture.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Backend API Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Designing secure and scalable REST APIs with Node.js and Express, including authentication, middleware, and database integration.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Authentication & Security",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Implementing secure authentication systems using JWT, protected routes, and password encryption with bcrypt in web applications.",
     href: "",
   },
 ];
-
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -46,13 +45,13 @@ const Services = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
           }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
+          className="grid grid-cols-1 md:grid-cols-2 gap-[60px] items-start"
         >
           {services.map((service, index) => {
             return (
               <div
                 key={index}
-                className="flex-1 flex flex-col justify-center gap-6 group"
+                className="flex flex-col justify-start gap-6 group h-full"
               >
                 {/* top */}
                 <div className="w-full flex justify-between items-center">

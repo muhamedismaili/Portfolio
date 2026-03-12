@@ -5,49 +5,49 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaFigma,
   FaNodeJs,
+  FaGitAlt,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiExpress, SiMysql } from "react-icons/si";
 
 // about data
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Computer Science & Engineering student at UIST Ohrid with a focus on full-stack web development. I build modern web applications using React, Node.js, Express, and MySQL, with an emphasis on clean architecture, REST APIs, and scalable backend systems.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Muhamed Ismaili",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "Available on request",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "3+ Years coding",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "University",
+      fieldValue: "UIST Ohrid",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Albanian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "muhamed.is2020@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Open to",
+      fieldValue: "Internships",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Albanian",
     },
   ],
 };
@@ -57,37 +57,22 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Experience gained through building full-stack web applications and developing modern frontend interfaces.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Personal Project",
+      position: "Full Stack Developer – Blog Application",
+      duration: "2025",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Personal Project",
+      position: "React Developer – Tomato Food App",
+      duration: "2025",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Portfolio Development",
+      position: "Frontend Developer – Personal Portfolio",
+      duration: "2024 - Present",
     },
   ],
 };
@@ -97,37 +82,28 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Academic background in Computer Science combined with practical training in modern web development technologies.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution:
+        "University for Information Science and Technology (UIST) Ohrid",
+      degree: "Computer Science & Engineering",
+      duration: "2024 - Present",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "ConnectAcademy",
+      degree: "Frontend Development Program",
+      duration: "2024",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "Academind (Online Course)",
+      degree: "React Developer Course",
+      duration: "2024",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Self Learning & Personal Projects",
+      degree: "Full Stack Web Development",
+      duration: "2023 - Present",
     },
   ],
 };
@@ -136,39 +112,43 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Technologies and tools I use to build modern full-stack web applications with responsive interfaces and scalable backend systems.",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "CSS3",
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "JavaScript",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      name: "Next.js",
     },
     {
       icon: <FaNodeJs />,
-      name: "node.js",
+      name: "Node.js",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <SiExpress />,
+      name: "Express",
+    },
+    {
+      icon: <SiMysql />,
+      name: "MySQL",
+    },
+    {
+      icon: <FaGitAlt />,
+      name: "Git",
     },
   ],
 };
