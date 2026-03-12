@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Personal Portfolio – Developer Portfolio Website
 
-## Getting Started
+A modern developer portfolio built with **Next.js, React, and Tailwind CSS**.  
+The website showcases projects, technical skills, and experience through a responsive and animated user interface.
 
-First, run the development server:
+🔗 **Live Demo:** https://portfolio-chi-seven-80.vercel.app  
+📂 **Repository:** https://github.com/muhamedismaili/Portfolio  
+
+---
+
+## 🚀 Overview
+
+This portfolio website presents my work as a **full-stack developer**, highlighting projects, technical skills, and contact information in a clean and interactive layout.
+
+The site is designed to provide recruiters and collaborators with a quick overview of:
+
+- My projects and technical work  
+- My development skills and technologies  
+- My experience and education  
+- Ways to contact me for opportunities  
+
+The portfolio focuses on **clean UI design, smooth animations, and responsive layouts**.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js  
+- React  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+
+### UI & Animation
+- Framer Motion  
+- React Icons  
+- React CountUp  
+
+### Deployment
+- Vercel
+
+---
+
+## ✨ Key Features
+
+- Fully responsive portfolio design  
+- Smooth page transitions and animations  
+- Interactive project showcase  
+- Skills and technology display  
+- Animated statistics section  
+- Resume and experience section  
+- Contact form for direct communication  
+
+---
+
+## 🧠 Architecture
+
+The portfolio follows a **component-based architecture using Next.js App Router**.
+
+### Structure
+
+- Reusable UI components  
+- Page-based routing with Next.js  
+- Modular layout structure  
+- Tailwind utility-based styling  
+
+### Performance
+
+- Optimized assets and images  
+- Fast static rendering using Next.js  
+- Lightweight component structure  
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/01-home.png)
+
+Displays introduction, developer role, and animated statistics.
+
+---
+
+### Services Section
+![Services](screenshots/02-services.png)
+
+Highlights development services and core technical expertise.
+
+---
+
+### Resume Section
+![Resume](screenshots/03-resume.png)
+
+Shows education, experience, and technical skills.
+
+---
+
+### Projects Section
+![Work](screenshots/04-work.png)
+
+Displays portfolio projects with live demo and repository links.
+
+---
+
+### Contact Page
+![Contact](screenshots/05-contact.png)
+
+Allows users to contact me directly through a form.
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository and run the project locally.
+
+```bash
+git clone https://github.com/muhamedismaili/Portfolio.git
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📈 What This Project Demonstrates
 
-To learn more about Next.js, take a look at the following resources:
+- Modern frontend development with Next.js  
+- Component-based React architecture  
+- Responsive design using Tailwind CSS  
+- UI animation and page transitions  
+- Clean portfolio presentation for developers  
+- Deployment workflow using Vercel  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 👨‍💻 Author
 
-## Deploy on Vercel
+**Muhamed Ismaili**  
+Computer Science & Engineering – UIST Ohrid  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📧 muhamed.is2020@gmail.com  
+🔗 https://www.linkedin.com/in/muhamed-ismaili-4bb8343a9/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 📄 License
+
+Developed for educational and portfolio purposes.
