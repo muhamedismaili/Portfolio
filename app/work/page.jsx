@@ -65,8 +65,8 @@ const projects = [
       { name: "Framer Motion" },
     ],
     image: "/assets/work/portfolio.png",
-    live: "",
-    github: "",
+    live: "https://portfolio-chi-seven-80.vercel.app/",
+    github: "https://github.com/muhamedismaili/Portfolio",
   },
 ];
 
