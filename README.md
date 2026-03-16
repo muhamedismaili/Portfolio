@@ -72,6 +72,33 @@ The portfolio follows a **component-based architecture using Next.js App Router*
 
 ---
 
+📂 Project Structure
+
+portfolio/ 
+│ 
+├── app/                # Next.js App Router pages 
+│    ├── contact/ 
+│    ├── resume/ 
+│    ├── services/ 
+│    └── work/ 
+│ 
+├── components/         # Reusable React components 
+│    ├── ui/ 
+│    ├── Header.jsx 
+│    ├── Nav.jsx 
+│    ├── MobileNav.jsx 
+│    ├── PageTransition.jsx 
+│    └── Stats.jsx 
+│ 
+├── public/assets/      # Images and icons 
+├── screenshots/        # Images used in README 
+│ 
+├── package.json 
+├── next.config.mjs 
+└── tailwind.config.js
+
+---
+
 ## 📸 Screenshots
 
 ### Home Page
