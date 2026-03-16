@@ -72,7 +72,7 @@ The portfolio follows a **component-based architecture using Next.js App Router*
 
 ```
 
-📂 Project Structure
+## 📂 Project Structure
 
 portfolio/ 
 │ 
