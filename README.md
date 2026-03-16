@@ -70,7 +70,7 @@ The portfolio follows a **component-based architecture using Next.js App Router*
 - Fast static rendering using Next.js  
 - Lightweight component structure  
 
----
+```
 
 📂 Project Structure
 
@@ -97,7 +97,7 @@ portfolio/
 ├── next.config.mjs 
 └── tailwind.config.js
 
----
+```
 
 ## 📸 Screenshots
 
