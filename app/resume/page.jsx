@@ -66,7 +66,7 @@ const experience = {
     },
     {
       company: "Personal Project",
-      position: "Frontend Developer – Personal Portfolio Website",
+      position: "Frontend Developer – Personal Portfolio",
       duration: "2026",
     },
     {
@@ -87,7 +87,7 @@ const education = {
     {
       institution:
         "University for Information Science and Technology (UIST) Ohrid",
-      degree: "Bachelor of Science in Computer Science & Engineering",
+      degree: "",
       duration: "2024 - Present",
     },
     {
