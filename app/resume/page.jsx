@@ -15,7 +15,7 @@ import { SiNextdotjs, SiExpress, SiMysql } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Computer Science & Engineering student at UIST Ohrid with a focus on full-stack web development. I build modern web applications using React, Node.js, Express, and MySQL, with an emphasis on clean architecture, REST APIs, and scalable backend systems.",
+    "Computer Science & Engineering student at UIST Ohrid focused on full-stack web development. I build modern web applications using React, Next.js, Node.js, Express, and MySQL, with an emphasis on clean architecture, REST APIs, authentication systems, and scalable backend development.",
   info: [
     {
       fieldName: "Name",
@@ -27,7 +27,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years coding",
+      fieldValue: "2+ Years coding",
     },
     {
       fieldName: "University",
@@ -43,11 +43,11 @@ const about = {
     },
     {
       fieldName: "Open to",
-      fieldValue: "Internships",
+      fieldValue: "Software Engineering Internships",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Albanian",
+      fieldValue: "English, Albanian, Macedonian",
     },
   ],
 };
@@ -57,21 +57,21 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Experience gained through building full-stack web applications and developing modern frontend interfaces.",
+    "Experience gained through building real-world full-stack applications and modern frontend interfaces.",
   items: [
     {
       company: "Personal Project",
-      position: "Full Stack Developer – Blog Application",
+      position: "Full Stack Developer – Blog Platform",
       duration: "2025",
     },
     {
       company: "Personal Project",
-      position: "React Developer – Tomato Food App",
+      position: "Frontend Developer – Tomato Food App",
       duration: "2025",
     },
     {
-      company: "Portfolio Development",
-      position: "Frontend Developer – Personal Portfolio",
+      company: "Personal Project",
+      position: "Frontend Developer – Personal Portfolio Website",
       duration: "2024 - Present",
     },
   ],
@@ -87,7 +87,7 @@ const education = {
     {
       institution:
         "University for Information Science and Technology (UIST) Ohrid",
-      degree: "Computer Science & Engineering",
+      degree: "Bachelor of Science in Computer Science & Engineering",
       duration: "2024 - Present",
     },
     {
@@ -149,6 +149,14 @@ const skills = {
     {
       icon: <FaGitAlt />,
       name: "Git",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase",
+    },
+    {
+      icon: <SiVite />,
+      name: "Vite",
     },
   ],
 };
