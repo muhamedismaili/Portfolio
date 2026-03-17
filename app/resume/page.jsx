@@ -9,7 +9,7 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 
-import { SiNextdotjs, SiExpress, SiMysql } from "react-icons/si";
+import { SiNextdotjs, SiExpress, SiMysql, SiFirebase, SiVite } from "react-icons/si";
 
 // about data
 const about = {
