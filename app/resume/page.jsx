@@ -62,17 +62,17 @@ const experience = {
     {
       company: "Personal Project",
       position: "Full Stack Developer – Blog Platform",
-      duration: "2025",
+      duration: "2026",
+    },
+    {
+      company: "Personal Project",
+      position: "Frontend Developer – Personal Portfolio Website",
+      duration: "2026",
     },
     {
       company: "Personal Project",
       position: "Frontend Developer – Tomato Food App",
       duration: "2025",
-    },
-    {
-      company: "Personal Project",
-      position: "Frontend Developer – Personal Portfolio Website",
-      duration: "2024 - Present",
     },
   ],
 };
@@ -91,14 +91,14 @@ const education = {
       duration: "2024 - Present",
     },
     {
-      institution: "ConnectAcademy",
-      degree: "Frontend Development Program",
+      institution: "Connect Academy",
+      degree: "Frontend Developer",
       duration: "2024",
     },
     {
       institution: "Academind (Online Course)",
       degree: "React Developer Course",
-      duration: "2024",
+      duration: "2025",
     },
     {
       institution: "Self Learning & Personal Projects",
