@@ -87,7 +87,7 @@ const education = {
     {
       institution:
         "University for Information Science and Technology (UIST) Ohrid",
-      degree: "",
+      degree: "CSE",
       duration: "2024 - Present",
     },
     {
